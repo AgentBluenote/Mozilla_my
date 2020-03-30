@@ -1,0 +1,9 @@
+MIKE: you can't add directories so I put this file to solve the following problem:
+
+on github.com, the directory struction looked all messed up:
+
+looked like this:
+html/introduction-to-html/navigation-menu-start 
+
+should have looked like this:
+html
