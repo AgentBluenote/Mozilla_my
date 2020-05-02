@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>images-in-html module</title>
+  </head>
+
+  <body>
+    <h1>Basic image embed</h1>
+
+  <!-- 
+      <img src="images/blueberries.jpg"
+        alt="The head and torso of a dinosaur skeleton;
+             it has a large head with long sharp teeth"
+        width="400"
+        height="341"
+        title="A T-Rex on display in the Manchester University Museum"> 
+        -->
+       
+        <!--  this one is "hotlinking" using the image ad this address and snaching bandwidth -->
+        <img src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
+             alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
+             width="200"
+             height="171"  
+             title="A T-Rex on display in the Manchester University Museum"> 
+             
+             
+        <!--  this is the correct way to do it, HTML5 provides <figure> element -->
+        <figure>
+          <img src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
+          alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
+          width="200"
+          height="171">  
+          <figcaption>A T-Rex on display in the Manchester University Museum</figcaption>
+         </figure>
+             
+ 
+  </body>
+  
+</html>
