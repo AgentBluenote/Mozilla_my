@@ -1,3 +1,6 @@
+<!-- This is the starting point for this exercise  
+     The finished assignment is the document entitled mediaembed2.html-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,8 +28,35 @@
   <body>
     <h1>Video embed</h1>
 
-    <video>
+    
+    <video controls width="320" height="240"
+       autoplay loop muted
+       poster="poster.png">    
+
+      <source src="media/video.mp4" type="video/mp4">
+
+      <track default kind="subtitles"
+           srclang="en"
+           src="media/subtitles_en.vtt"/>
+
+
+      <!-- 
+      <source src="media/video.webm" type="video/webm">
+      --> 
+
+
+<!--        <track kind="subtitles" src="subtitles_en.vtt" srclang="en"> -->
+
+
+      Your browser doesn't support HTML5 video. 
+
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p> 
+
+
     </video>
   </body>
 
 </html>
+
+
+
